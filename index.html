@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Project 5</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="slideStyle.css">
+    </head>
+    <body>
+        <header class="header">
+            <hgroup class="header__titles">
+                <h1 class="header__title">좋은 아침</h1>
+                <h4 class="header__subtitle">오늘 뭐먹지?</h4>
+            </hgroup>
+            <div class="header__icons">
+                <i class="fas fa-search searchBtn"></i>
+                <i class="far fa-user loginBtn"></i>
+            </div>
+        </header>
+        
+        <main class="carousel">
+            <div class="slide-item">
+            <div class="recipe image1">
+                <div class="recipe__heart">
+                    <i class="fas fa-heart heartBtn"></i>
+                </div>
+            
+                <div class="recipe__info">
+                    <h4 class="recipe__title">
+                        쿠키
+                    </h4>
+                    <div class="recipe__meta">
+                        <span class="recipe__meta-data">Vegan</span>
+                        <span class="recipe__meta-data">10분</span>
+                        <span class="recipe__meta-data">3인분</span>
+                    </div>
+                    <div class="recipe__social">
+                        <span class="recipe__social-item"><i class="fas fa-star"></i>4.3 stars</span>
+                        <span class="recipe__social-item"><i class="fas fa-comments"></i>94 comments</span>
+                        <span class="recipe__social-item"><i class="fas fa-thumbs-up"></i>123 likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-item">
+                <div class="recipe image2">
+                    <div class="recipe__heart">
+                        <i class="fas fa-heart heartBtn"></i>
+                    </div>
+                
+                    <div class="recipe__info">
+                        <h4 class="recipe__title">
+                            쿠키
+                        </h4>
+                        <div class="recipe__meta">
+                            <span class="recipe__meta-data">Vegan</span>
+                            <span class="recipe__meta-data">20분</span>
+                            <span class="recipe__meta-data">50인분</span>
+                        </div>
+                        <div class="recipe__social">
+                            <span class="recipe__social-item"><i class="fas fa-star"></i>4.3 stars</span>
+                            <span class="recipe__social-item"><i class="fas fa-comments"></i>94 comments</span>
+                            <span class="recipe__social-item"><i class="fas fa-thumbs-up"></i>123 likes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="Container" class="button-container">
+            <div id="heroNav0" class="hero-radio-button">1</div>
+            <div id="heroNav1" class="hero-radio-button">2</div>
+            <div id="heroNav2" class="hero-radio-button">3</div>
+            <div id="heroNav3" class="hero-radio-button">4</div>
+            <div id="heroNav4" class="hero-radio-button">5</div>
+        </div>
+
+
+
+        <section class="recommended">
+            <header class="recomended__header">
+                <h4 class="recommended__title">추천 음식</h4>
+                <small class="recommended__small">전체 보기</small>
+            </header>
+            <div class="recommended__grid">
+                <article class="recommended-recipe">
+                    <div class="recommended-recipe__info">
+                        <h5 class="recommended-recipe__title">딸기 쥬스</h5>
+                        <h6 class="recommended-recipe__subtitle">상큼한 딸기로 시작하는 아침</h6>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <script src="slide.js"></script>
+    </body>
+</html>
